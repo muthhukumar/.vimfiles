@@ -1,6 +1,6 @@
 set colorcolumn=100
 syntax on
-set clipboard=unnamedplus
+set clipboard+=unnamedplus
 set t_Co=256
 set noerrorbells
 set tabstop=4 softtabstop=4
@@ -23,7 +23,8 @@ set smartcase
 set path+=**
 set wildignore+=**/node_modules/**
 set relativenumber
-
+set noshowmode
+set fillchars=eob:.
 
 filetype plugin indent on
 
