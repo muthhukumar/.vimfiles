@@ -17,7 +17,6 @@ nnoremap <leader>- :vertical resize -5<CR>
 nnoremap <leader>f :FZF<CR>
 nnoremap <leader>pw :Ag <C-R>=expand("<cword>")<CR><CR>
 nnoremap <leader>a :Ag<CR>
-nnoremap <leader>p :CocCommand prettier.formatFile<CR>
 
 "Control key mappings
 nnoremap <C-n> :!ctags -R --exclude=node_modules --exclude=.next --exclude=.git --exclude=test --exclude=package.json --exclude=package-lock.json <CR>
@@ -33,9 +32,5 @@ nnoremap <A-r> yaw :%s/<C-r>"//g <left><left><left>
 nnoremap <A-c> :bd<CR>
 nnoremap <A-s> :w<CR>
 nnoremap <A-s>a :wal<CR>
-nnoremap <leader>tc :colorscheme codedark<CR>
-nnoremap <leader>tg :colorscheme gruvbox<CR>
-nnoremap <leader>to :colorscheme one<CR>
-
 
 imap jj <Esc>
