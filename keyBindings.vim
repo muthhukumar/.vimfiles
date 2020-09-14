@@ -33,4 +33,13 @@ nnoremap <A-c> :bd<CR>
 nnoremap <A-s> :w<CR>
 nnoremap <A-s>a :wal<CR>
 
+
+"insert mode key bindings"
+
+"ctrl + p => ctrl + x, ctrl + f
+"Auto complete the directory
+inoremap <C-p> <C-x><C-f>
+
+"Remap the esc in the normal mode to jj. No no need to move the hand for
+"pressing escape for going into normal mode
 imap jj <Esc>
