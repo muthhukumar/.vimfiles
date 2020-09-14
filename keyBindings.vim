@@ -18,6 +18,7 @@ nnoremap <leader>f :FZF<CR>
 nnoremap <leader>pw :Ag <C-R>=expand("<cword>")<CR><CR>
 nnoremap <leader>a :Ag<CR>
 
+
 "Control key mappings
 nnoremap <C-n> :!ctags -R --exclude=node_modules --exclude=.next --exclude=.git --exclude=test --exclude=package.json --exclude=package-lock.json <CR>
 nnoremap <C-p> :find 
