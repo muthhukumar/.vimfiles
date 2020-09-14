@@ -9,6 +9,7 @@ Plug 'junegunn/fzf.vim'
 
 " visual plugins
 Plug 'vim-airline/vim-airline'	
-Plug 'morhetz/gruvbox'
+Plug 'dracula/vim', { 'as': 'dracula' }
+Plug 'tpope/vim-fugitive'
 
 call plug#end()

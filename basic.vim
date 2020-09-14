@@ -1,6 +1,6 @@
-set colorcolumn=100
+set colorcolumn=80
 syntax on
-set clipboard+=unnamedplus
+set termguicolors
 set t_Co=256
 set noerrorbells
 set tabstop=4 softtabstop=4
