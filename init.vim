@@ -5,7 +5,7 @@ source ~/.vimfiles/basic.vim
 source ~/.vimfiles/plugin.vim
 source ~/.vimfiles/theme.vim
 source ~/.vimfiles/keyBindings.vim
-source ~/.vimfiles/command.vim
+"source ~/.vimfiles/command.vim
 
 
 "Plugin specifig config files
@@ -19,7 +19,8 @@ source ~/.vimfiles/src/airline.vim
 source ~/.vimfiles/src/polygot.vim
 source ~/.vimfiles/src/nerdtree.vim
 source ~/.vimfiles/src/fzf.vim
-source ~/.vimfiles/src/lsp.vim
+source ~/.vimfiles/src/coc.vim
+"source ~/.vimfiles/src/lsp.vim
 source ~/.vimfiles/src/ale.vim
 
 
