@@ -41,6 +41,8 @@ Plug 'junegunn/fzf.vim'
 
 "Selected Ale prettier for formatting file over other formatter because it 
 "utilizes nvm async abilities lets see how it hold up.
+let g:ale_disable_lsp = 1
+
 Plug 'dense-analysis/ale' 
 
 
