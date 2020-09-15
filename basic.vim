@@ -4,6 +4,7 @@
 set colorcolumn=80 
 
 syntax on
+set cmdheight=1
 set termguicolors
 set t_Co=256
 set noerrorbells
@@ -32,3 +33,9 @@ set fillchars=eob:.
 
 filetype plugin indent on
 
+if has("patch-8.1.1564")
+  " Recently vim can merge signcolumn and number column into one
+  set signcolumn=number
+else
+  set signcolumn=yes
+endif

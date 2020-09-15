@@ -1,11 +1,12 @@
 "Sourcing all the files
 
+
 "Basic config files for the vim
 source ~/.vimfiles/basic.vim
 source ~/.vimfiles/plugin.vim
 source ~/.vimfiles/theme.vim
 source ~/.vimfiles/keyBindings.vim
-"source ~/.vimfiles/command.vim
+source ~/.vimfiles/command.vim
 
 
 "Plugin specifig config files
