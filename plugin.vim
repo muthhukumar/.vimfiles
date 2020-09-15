@@ -41,7 +41,7 @@ Plug 'junegunn/fzf.vim'
 
 "Selected Ale prettier for formatting file over other formatter because it 
 "utilizes nvm async abilities lets see how it hold up.
-Plug 'dense-analysis/ale' 
+"Plug 'dense-analysis/ale' 
 
 
 "Git wrapper plugin for vim

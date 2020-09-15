@@ -21,6 +21,6 @@ source ~/.vimfiles/src/nerdtree.vim
 source ~/.vimfiles/src/fzf.vim
 source ~/.vimfiles/src/coc.vim
 "source ~/.vimfiles/src/lsp.vim
-source ~/.vimfiles/src/ale.vim
+"source ~/.vimfiles/src/ale.vim
 
 
