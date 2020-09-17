@@ -31,21 +31,26 @@ Plug 'junegunn/fzf.vim'
 "with auto completion. We need to install the tsserver globally to actually
 "make it work
 "               npm install -g typescript typescript-language-server
-Plug 'neovim/nvim-lspconfig'
+"Plug 'neovim/nvim-lspconfig'
 
 
 "Autocompletion for vim. Needed it because Nvim default Lsp does not give any
 "auto completion support. So need to install it separately.
-Plug 'nvim-lua/completion-nvim'
+"Plug 'nvim-lua/completion-nvim'
 
 
 "Selected Ale prettier for formatting file over other formatter because it 
 "utilizes nvm async abilities lets see how it hold up.
+let g:ale_disable_lsp = 1
+
 Plug 'dense-analysis/ale' 
 
 
 "Git wrapper plugin for vim
 Plug 'tpope/vim-fugitive'
+
+"coc.vim for auto completion and for showing errors
+Plug 'neoclide/coc.nvim', {'branch': 'release'}
 
 
 " visual plugins

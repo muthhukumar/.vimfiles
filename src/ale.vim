@@ -2,7 +2,7 @@
 let g:ale_fix_on_save = 1
 
 "Automatic import from external modules
-let g:ale_completion_autoimport = 1
+"let g:ale_completion_autoimport = 1
 
 
 let g:ale_fixers = {
