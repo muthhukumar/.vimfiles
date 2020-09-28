@@ -1,7 +1,7 @@
 
 
 "create a colorful line from 80 space away from the buffer start
-set colorcolumn=80 
+"set colorcolumn=80 
 
 syntax on
 set cmdheight=1

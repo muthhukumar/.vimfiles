@@ -23,38 +23,50 @@ Plug 'unkiwii/vim-nerdtree-sync'
 
 "Fuzzy file search that respects .gitignore and ignore the file and folders
 "that are in the .gitignore. Need to install both the plugin for FZF to work
-Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
-Plug 'junegunn/fzf.vim'
+"Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
+"Plug 'junegunn/fzf.vim'
 
 
 "Default Language server protocal of Neovim for showing errors and integration 
 "with auto completion. We need to install the tsserver globally to actually
-"make it work
+""make it work
 "               npm install -g typescript typescript-language-server
-"Plug 'neovim/nvim-lspconfig'
+Plug 'neovim/nvim-lspconfig'
 
 
 "Autocompletion for vim. Needed it because Nvim default Lsp does not give any
 "auto completion support. So need to install it separately.
-"Plug 'nvim-lua/completion-nvim'
+Plug 'nvim-lua/completion-nvim'
 
 
 "Selected Ale prettier for formatting file over other formatter because it 
 "utilizes nvm async abilities lets see how it hold up.
-let g:ale_disable_lsp = 1
 
 Plug 'dense-analysis/ale' 
 
 
 "Git wrapper plugin for vim
-Plug 'tpope/vim-fugitive'
+"Plug 'tpope/vim-fugitive'
 
 "coc.vim for auto completion and for showing errors
-Plug 'neoclide/coc.nvim', {'branch': 'release'}
+"Plug 'neoclide/coc.nvim', {'branch': 'release'}
 
 
 " visual plugins
 Plug 'vim-airline/vim-airline'	
 Plug 'dracula/vim', { 'as': 'dracula' }
+
+"vim starify is a fancy startup screen for vim. Comes with different quote and
+"bookmarks
+Plug 'mhinz/vim-startify'
+
+" fzf replacement, Think so. Lets see how it is going to work out
+Plug 'nvim-lua/popup.nvim'
+Plug 'nvim-lua/plenary.nvim'
+Plug 'nvim-lua/telescope.nvim'
+
+"Tree sitter for syntax highlighting
+"Plug 'nvim-treesitter/nvim-treesitter'
+
 
 call plug#end()

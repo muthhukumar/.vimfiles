@@ -12,11 +12,13 @@ nnoremap <leader>n :NERDTreeToggle<CR>
 nnoremap <leader>vs :vsplit<CR>
 nnoremap <leader>hs :split<CR>
 nnoremap <leader>s o<Esc>kO<Esc>j
-nnoremap <leader>+ :vertical resize +5<CR>
-nnoremap <leader>- :vertical resize -5<CR>
-nnoremap <leader>f :FZF<CR>
+nnoremap <C-l> :vertical resize +6<CR>
+nnoremap <C-h> :vertical resize -5<CR>
+nnoremap <C-j> :split resize +6<CR>
+nnoremap <C-h> :split resize -5<CR>
+"nnoremap <leader>f :FZF<CR>
 nnoremap <leader>pw :Ag <C-R>=expand("<cword>")<CR><CR>
-nnoremap <leader>a :Ag<CR>
+"nnoremap <leader>a :Ag<CR>
 nnoremap <leader>p :ALEFix<CR> 
 
 
@@ -24,8 +26,6 @@ nnoremap <leader>p :ALEFix<CR>
 nnoremap <C-n> :!ctags -R --exclude=node_modules --exclude=.next --exclude=.git --exclude=test --exclude=package.json --exclude=package-lock.json <CR>
 nnoremap <C-p> :find 
 nnoremap <C-b> :b 
-nnoremap <C-k>  I/*<Esc>A*/<Esc>
-nnoremap <C-k>r  I{/*<Esc>A*/}<Esc>
 nnoremap <C-s> :source ~/.config/nvim/init.vim <CR>
 inoremap <C-u> <Esc>ko
 

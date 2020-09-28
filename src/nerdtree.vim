@@ -1,4 +1,4 @@
-autocmd vimenter * :NERDTree
+"autocmd vimenter * :NERDTree
 
 let g:nerdtree_sync_cursorline = 1
 let g:NERDTreeShowHidden = 1
