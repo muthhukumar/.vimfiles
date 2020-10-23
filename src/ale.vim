@@ -1,5 +1,5 @@
 "This will enable the auto save when the file is saved feature
-let g:ale_fix_on_save = 1
+let g:ale_fix_on_save = 0
 let g:ale_disable_lsp = 1
 
 "Automatic import from external modules

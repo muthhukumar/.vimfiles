@@ -19,7 +19,7 @@ nnoremap <C-h> :split resize -5<CR>
 "nnoremap <leader>f :FZF<CR>
 nnoremap <leader>pw :Ag <C-R>=expand("<cword>")<CR><CR>
 "nnoremap <leader>a :Ag<CR>
-nnoremap <leader>p :ALEFix<CR> 
+"nnoremap <leader>p :ALEFix<CR> 
 
 
 "Control key mappings

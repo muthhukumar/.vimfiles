@@ -29,7 +29,7 @@ set path+=**
 set wildignore+=**/node_modules/**
 set relativenumber
 set noshowmode
-set fillchars=eob:.
+set fillchars=eob:⠀
 
 filetype plugin indent on
 
